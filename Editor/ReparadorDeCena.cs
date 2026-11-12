@@ -736,7 +736,8 @@ namespace VirtuALLme.Seguranca
                     reg.paiCaminho = t.parent != null ? CaminhoHierarquia(t.parent) : "";
                     if (!PrefabUtility.IsPrefabAssetMissing(go))
                     {
-                        string ap = PrefabUtility.GetPrefabAssetPathOfNearestPrefabInstanceRoot(go);
+                        var fonte = PrefabUtility.GetCorrespondingObjectFromSource(go);
+                        string ap = fonte != null ? AssetDatabase.GetAssetPath(fonte) : null;
                         var asset = string.IsNullOrEmpty(ap) ? null : AssetDatabase.LoadAssetAtPath<GameObject>(ap);
                         if (asset != null)
                         {
