@@ -1,0 +1,19 @@
+{
+  "name": "com.virtuallme.seguranca",
+  "version": "1.0.0",
+  "displayName": "VirtuALLme Segurança",
+  "description": "Ferramentas de segurança para todos os projetos VirtuALLme: (1) Reparador de Cena — repõe materiais, cores, texturas, shaders rosa, meshes e prefabs perdidos com um clique; (2) Auto-salvamento e Recuperação — guarda cópias da cena automaticamente e recupera a versão exata após um crash, travamento ou reinício do PC.",
+  "unity": "2021.3",
+  "author": {
+    "name": "VirtuALLme",
+    "url": "https://virtuall.me"
+  },
+  "keywords": [
+    "virtuallme",
+    "backup",
+    "autosave",
+    "recovery",
+    "missing prefab",
+    "missing material"
+  ]
+}
